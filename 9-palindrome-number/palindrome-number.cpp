@@ -11,7 +11,8 @@ public:
         while( num > 0){
             last_dig = num % 10 ;
             num = num / 10;
-            rev = rev * 10 + last_dig;
+            rev = rev * 10 + la
+                st_dig;
         }
         if( rev == x ) return true ;
         else return false ;
